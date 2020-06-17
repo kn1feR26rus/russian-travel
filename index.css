@@ -65,10 +65,9 @@ a:hover {
 
 
 .lead {
-    max-width: 76.88%;
-    max-height: 1005px;
+    max-width: 76.9%;
     margin: 0 auto;
-    padding-bottom: 9.35%;
+    padding-bottom: 92px;
 }
 
 .lead__title {
@@ -88,7 +87,6 @@ a:hover {
 }
 
 .lead__subtitle {
-    
     max-width: 65.04%;
     max-height: 7.32%;
     margin: 0 auto;
@@ -103,8 +101,7 @@ a:hover {
 
 .lead__image { 
     max-width: 100%;
-    max-height: 100%;
-    padding-top: 6.5%;
+    padding-top: 64px;
 }
 
 .lead__caption {
@@ -123,16 +120,16 @@ a:hover {
 }
 
 .intro {
-    max-width: 53.91%;
-    max-height: 33.44%;
     margin-left: 11.56%;
     margin-right: 0; 
+    padding-bottom: 92px;
 }
 
 .intro__title {
+    max-width: 61%;
+    width: 100%;
     margin: 0;
     margin-bottom: 5.8%;
-    width: 100%;
     height: 8.41%;
     font-family: Inter;
     font-style: normal;
@@ -143,8 +140,8 @@ a:hover {
 }
 
 .intro__text {
+    max-width: 61.91%;
     width: 100%;
-    height: 208px;
     margin: 0;
     font-family: Inter;
     font-style: normal;
@@ -155,9 +152,10 @@ a:hover {
 }
 
 .intro__list {
+    max-width: 53.91%;
     width: 100%;
-    height: 90px;
-    margin: 32px 0;
+    margin: 0;
+    padding-top: 32px;
     font-family: Inter;
     font-style: normal;
     font-weight: bold;
@@ -171,7 +169,6 @@ a:hover {
     justify-content: center;
     margin: 0 auto;
     width: 92.5%;
-    height: 52.42%;
     grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
     grid-column-gap: 10px;
     grid-row-gap: 10px;
@@ -183,28 +180,61 @@ a:hover {
 }
 
 .places {
+    display: flex;
+    flex-direction: column;
     max-width: 76.88%;
-    max-height: 3392px;
+    width: 100%;
+    margin: 0;
+    padding: 0 148px;
+}
+
+.place {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.place__left-column {
+    display: flex;
+    flex-direction: column;
+    width: 62.75%;
+}
+
+.place__right-column {
+    display: flex;
+    flex-direction: column;
+    width: 63.19%;
+    padding-left: 40px;
+}
+
+.place__title {
+
+}
+
+.place__image {
+    width: 460px;
+    height: 460px;
+}
+
+
+/*
+.places {
+    max-width: 76.88%;
     margin: 0 auto;
-    padding: 0;
+    padding-left: 0;
 }
 
 .place {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-   
+    grid-template-columns: repeat(auto-fit, minmax(320px, 460px));
     grid-gap: 48px 40px;
     color: #FFFFFF;
     margin-top: 75px;
 }
 
-
 .place__image {
-    width: 100%;
-    max-width: 460px;
-    max-height: 460px;
+   width: 100%;
 }
-
 
 .place__title {
     width: 460px;
@@ -257,10 +287,10 @@ a:hover {
     line-height: 30px;
     margin: 0 auto 24px;
 }
-
+*/
 .cover {
     display: flex;
-    width: 1184px;
+    width: 92.5%;
     height: 740px;
     margin: auto;
     margin-top: 92px;
@@ -315,7 +345,9 @@ a:hover {
     text-align: center;
     color: #FFFFFF;
     z-index: 998;
+    transition: opacity .33s;
 }
+
 
 .cover__overlay {
   position: absolute;
@@ -382,11 +414,11 @@ a:hover {
         
 
 
-@media all and (max-device-width:768px){
+@media all and (max-device-width: 768px){
 
 }
 
-@media all and (max-device-width: 320px) {
+@media all and (max-width: 320px) {
     .header {
     max-width: 90%;
     }
@@ -407,12 +439,29 @@ a:hover {
         height: 40px;
     }
 
+/* шляпа на гридах ну их нах
+    .places {
+        width: 320px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .place_image {
+        width: 320px;
+    }
+
+    .place__paragraph {
+        width: 288px;
+        font-size: 16px;
+    }
+
     .place__url-heading {
         display: none;
     }
+    */
 }
 
-/*
+/*  Оставить для копирования стилей
 @media all and (max-device-width: 320px) {
     .page {
         width: 100%;
