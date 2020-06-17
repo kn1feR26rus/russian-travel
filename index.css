@@ -3,7 +3,9 @@
 
 .page {
     background-color: #2A2C2F;
-    width: 1280px;
+    max-width: 1280px;
+    max-height: 6874px;
+    margin: 0 auto;
 }
 
 a {
@@ -18,51 +20,78 @@ a:hover {
 .header {
     display: flex;
     flex-direction: row;
-    width: 1184px;
-    height: 52px;
-    padding: 28px 48px 0;
+    justify-content: space-between;
+    max-width: 92.5%;
+    height: 4.06%;
+    margin: 0 auto;
+    padding: 2.19% 3.75% 0;
+    
 }
 
 .header__logo {
-    width: 176px;
-    height: 52px;
-    margin-right: 931px;
+    width: 14.86%;
+    height: 4.39%;
+    
 }
 
 .header__lang-link {
     color: #FFFFFF;
     justify-content: space-between;
-    margin-right: 0;
+    margin: 0 auto;
     padding-left: 18px;
 }
 
+.header__lang-link-text {
+    width: 2.53%;
+    height: 2.36%;
+    text-decoration: none;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 28px;
+    text-align: right;
+    margin-top: 0;
+}
+
+.header__lang-link:first-child {
+    text-decoration-line: underline;
+}
+
+.header__lang-links {
+    display: flex;
+    flex-direction: row;
+}
+
+
 .lead {
-    width: 984px;
-    height: 1005px;
-    margin: 56px 148px 0;
-    padding-bottom: 92px;
+    max-width: 76.88%;
+    max-height: 1005px;
+    margin: 0 auto;
+    padding-bottom: 9.35%;
 }
 
 .lead__title {
     display: flex;
-    width: 720px;
-    height: 200px;
-    margin: 0 136px 32px;
+    max-width: 73.17%;
+    max-height: 20.33%;
+    margin: 0 auto;
+    padding-bottom: 3.25%;
     font-family: Inter;
     font-style: normal;
     font-weight: 900;
-    font-size: 96px;
+    font-size: 6em;
     line-height: 100px;
     color: #FFFFFF;
     text-align: center;
+    justify-content: center;
 }
 
 .lead__subtitle {
-    display: flex;
-    width: 640px;
-    height: 72px;
-    margin-right: 172px;
-    margin-left: 172px;
+    
+    max-width: 65.04%;
+    max-height: 7.32%;
+    margin: 0 auto;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -72,15 +101,16 @@ a:hover {
     color: #FFFFFF;
 }
 
-.lead__image {
-    width: 984px;
-    height: 615px;
+.lead__image { 
+    max-width: 100%;
+    max-height: 100%;
+    padding-top: 6.5%;
 }
 
 .lead__caption {
-    width: 159px;
-    height: 14px;
-    margin-top: 8px;
+    max-width: 16.16%;
+    max-height: 1.42%;
+    margin-top: 0.81%;
     margin-bottom: 0;
     font-family: Inter;
     font-style: normal;
@@ -93,27 +123,27 @@ a:hover {
 }
 
 .intro {
-    width: 690px;
-    height: 428px;
-    margin-left: 148px;
-    margin-right: 442px; 
+    max-width: 53.91%;
+    max-height: 33.44%;
+    margin-left: 11.56%;
+    margin-right: 0; 
 }
 
 .intro__title {
     margin: 0;
-    margin-bottom: 40px;
-    width: 690px;
-    height: 58px;
+    margin-bottom: 5.8%;
+    width: 100%;
+    height: 8.41%;
     font-family: Inter;
     font-style: normal;
     font-weight: 900;
-    font-size: 54px;
+    font-size: 3.3em;
     line-height: 58px;
     color: #FFFFFF;
 }
 
 .intro__text {
-    width: 690px;
+    width: 100%;
     height: 208px;
     margin: 0;
     font-family: Inter;
@@ -125,13 +155,13 @@ a:hover {
 }
 
 .intro__list {
-    width: 690px;
+    width: 100%;
     height: 90px;
     margin: 32px 0;
     font-family: Inter;
     font-style: normal;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 0.75em;
     line-height: 18px;
     color: #FFFFFF;
 }
@@ -139,10 +169,10 @@ a:hover {
 .photo-grid {
     display: grid;
     justify-content: center;
-    margin: 92px 48px 0;
-    width: 1184px;
-    height: 671px;
-    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+    width: 92.5%;
+    height: 52.42%;
+    grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
     grid-column-gap: 10px;
     grid-row-gap: 10px;
 }
@@ -153,16 +183,16 @@ a:hover {
 }
 
 .places {
-    max-width: 984px;
+    max-width: 76.88%;
     max-height: 3392px;
-    margin: 92px auto 0;
+    margin: 0 auto;
     padding: 0;
 }
 
 .place {
     display: grid;
-    grid-template-columns: minmax(min-content, 460px) minmax(min-content, 484px);
-    grid-template-rows: minmax(min-content, max-content) minmax(min-content, max-content);;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+   
     grid-gap: 48px 40px;
     color: #FFFFFF;
     margin-top: 75px;
@@ -345,3 +375,127 @@ a:hover {
     text-decoration: none;
     color: #FFFFFF;
 }
+
+@media screen and (min-device-width: 1024px) {
+
+    }
+        
+
+
+@media all and (max-device-width:768px){
+
+}
+
+@media all and (max-device-width: 320px) {
+    .header {
+    max-width: 90%;
+    }
+
+    .header__logo {
+        min-width: 44.38%;
+    }
+
+    .lead__title {
+        font-size: 2.5em;
+        line-height: 44px;
+    }
+
+    .lead__subtitle {
+        font-size: 1em;
+        line-height: 20px;
+        width: 288px;
+        height: 40px;
+    }
+
+    .place__url-heading {
+        display: none;
+    }
+}
+
+/*
+@media all and (max-device-width: 320px) {
+    .page {
+        width: 100%;
+        flex-direction: column; 
+    }
+
+    .header {
+        width: 320px;
+        padding: 0;
+    }
+
+    .header__logo {
+        width: 142px;
+        height: 42px;
+        padding-left: 16px;
+        padding-top: 16px;}
+
+    .header__lang-links {
+        padding-right: 16px;
+        padding-top: 14px;
+    }
+
+    
+
+    .header__lang-link {
+        width: 22px;
+        height: 24px;
+    }
+
+    .lead {flex-direction: column;
+        width: 100%;
+        margin: auto;}
+    .lead__title {
+        width: 288px;
+        height: 88px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 44px;
+        margin: 48px auto 0;
+        text-align: center;
+    }
+    .lead__subtitle {
+        width: 288px;
+        height: 40px;
+        margin: 16px 16px 40px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .lead__image {max-width: 320px;
+                  max-height: 200px;}
+
+    .lead__caption {
+        width: 159px;
+        height: 14px;
+        margin-left: 16px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 14px;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+    }
+}
+
+@media all and (max-device-width: 768px) {
+    
+}
+
+@media screen and (max-device-width: 1024px) {
+    
+}
+
+@media screen and (min-device-width: 1280px) {
+   
+}
+*\
+
+
