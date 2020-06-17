@@ -6,6 +6,15 @@
     width: 1280px;
 }
 
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
 .header {
     display: flex;
     flex-direction: row;
@@ -133,7 +142,7 @@
     margin: 92px 48px 0;
     width: 1184px;
     height: 671px;
-    grid-template-columns: repeat(4, 284px);
+    grid-template-columns: repeat(4, 1fr);
     grid-column-gap: 10px;
     grid-row-gap: 10px;
 }
@@ -260,6 +269,7 @@
 .cover__title-link {
     color: #FFFFFF;
     text-decoration: none;
+    z-index: 999;
 }
 
 .cover__subtitle { 
@@ -274,6 +284,7 @@
     padding-top: 32px;
     text-align: center;
     color: #FFFFFF;
+    z-index: 998;
 }
 
 .cover__overlay {
