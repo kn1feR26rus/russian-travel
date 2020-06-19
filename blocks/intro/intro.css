@@ -1,0 +1,39 @@
+
+
+
+@import url(./__title/intro__title.css);
+@import url(./__list/intro__list.css);
+@import url(./__text/intro__text.css);
+@import url(./__list/intro__list-text.css);
+
+
+
+.intro {
+    width: 690px;
+    margin-left: 11.56%;
+    margin-right: 0; 
+    padding-bottom: 92px;
+}
+
+@media screen and (max-width: 1024px) {
+    .intro {
+        margin: 0;
+        padding-top: 92px;
+        padding-left: 48px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .intro {
+        max-width: 720px;
+        width: 100%;
+        padding: 88px 24px 0;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .intro {
+        width: 288px;
+        padding: 64px 16px 0;
+    }
+}

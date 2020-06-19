@@ -1,0 +1,37 @@
+
+
+
+.footer__copyright {
+    max-width: 186px;
+    width: 100%;
+    padding-left: 485px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    color: #FFFFFF;
+    list-style-type: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer__copyright {
+        padding-left: 280px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .footer__copyright {
+        padding-left: 69px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .footer__copyright {
+        padding-left: 0;
+        font-size: 14px;
+        line-height: 14px;
+        text-align: left;
+    }
+}

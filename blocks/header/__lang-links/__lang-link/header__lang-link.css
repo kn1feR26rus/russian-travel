@@ -1,0 +1,41 @@
+
+
+
+.header__lang-link {
+    color: #FFFFFF;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-left: 18px;
+    text-decoration: none;
+}
+
+.header__lang-link:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+    .header__lang-link {
+        width: 30px;
+        height: 28px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .header__lang-link {
+        width: 30px;
+        height: 28px;
+        padding: 0;
+    }
+
+    .header__lang-link:last-child {
+        width: 29px;
+        padding-left: 18px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .header__lang-link {
+        width: 22px;
+        height: 24px;
+    }
+}

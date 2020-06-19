@@ -1,0 +1,9 @@
+.cover__title-link {
+    color: #FFFFFF;
+    text-decoration: none;
+    z-index: 999;
+}
+
+.cover__title-link:hover {
+    opacity: 0.8;
+}

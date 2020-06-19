@@ -1,0 +1,15 @@
+.footer__link-items {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    margin: 0;
+    padding-bottom: 24px;
+    padding-left: 0;
+}
+
+@media all and (max-width: 320px) {
+    .footer__link-items {
+        flex-direction: column;
+        padding: 0;
+    }
+}

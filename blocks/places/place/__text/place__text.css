@@ -1,0 +1,32 @@
+.place__text {
+    padding-top: 4.88%;
+    padding-left: 4%;
+    max-width: 49.19%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__text {
+        width: 456px;
+        padding-left: 32px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .place__text {
+        max-width: 352px;
+        padding-left: 28px;
+        margin: 0;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .place__text {
+        padding: 32px 16px 0;
+    }
+}
