@@ -12,6 +12,7 @@
 
 @media all and (max-width: 768px) {
     .place__image {
+        min-width: 320px;
         max-width: 340px;
         max-height: 340px;
         padding-top: 48px;
@@ -21,7 +22,6 @@
 @media all and (max-width: 320px) {
     .place__image {
         max-width: 320px;
-
         max-height: 320px;
         padding-top: 32px;
     }
