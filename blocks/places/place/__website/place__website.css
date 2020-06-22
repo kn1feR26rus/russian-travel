@@ -6,20 +6,20 @@
 
 .place__website {
     padding-left: 4.07%;
-    width: 46.34%;
+    max-width: 46.34%;
     align-self: flex-end;
 }
 
 @media screen and (max-width: 1024px) {
     .place__website {
-        width: 456px;
+        max-width: 456px;
         padding-left: 32px;
     }
 }
 
 @media all and (max-width: 768px) {
     .place__website {
-        width: 352px;
+        max-width: 352px;
         padding-left: 28px;
     }
 }
