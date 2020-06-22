@@ -3,14 +3,9 @@
 
 
 .header__logo {
-    width: 14.86%;
+    max-width: 176px;
 }
 
-@media all and (max-width: 768px) {
-    .header__logo {
-        width: 176px;
-    }
-}
 
 @media all and (max-width: 320px) {
     .header__logo {
