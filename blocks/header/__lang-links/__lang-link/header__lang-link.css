@@ -1,12 +1,12 @@
 
 
 
+
 .header__lang-link {
     color: #FFFFFF;
     justify-content: space-between;
     margin: 0 auto;
     padding-left: 18px;
-    text-decoration: none;
 }
 
 .header__lang-link:hover {
