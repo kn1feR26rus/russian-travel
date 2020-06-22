@@ -25,14 +25,14 @@
 
 @media all and (max-width: 768px) {
     .footer {
-        width: 720px;
+        max-width: 720px;
         padding: 88px 24px 24px;
     }
 }
 
 @media all and (max-width: 320px) {
     .footer {
-        width: 186px;
+        max-width: 186px;
         height: 310px;
         margin: 0;
         padding: 64px 118px 24px 16px;

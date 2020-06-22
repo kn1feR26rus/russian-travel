@@ -9,7 +9,7 @@
 
 
 .intro {
-    width: 690px;
+    max-width: 690px;
     margin-left: 11.56%;
     margin-right: 0; 
     padding-bottom: 92px;
@@ -33,7 +33,7 @@
 
 @media all and (max-width: 320px) {
     .intro {
-        width: 288px;
+        max-width: 288px;
         padding: 64px 16px 0;
     }
 }
