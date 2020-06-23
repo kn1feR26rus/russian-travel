@@ -8,6 +8,7 @@
 
 @media all and (max-width: 320px) {
     .footer__link-items {
+        display: flex;
         flex-direction: column;
         padding: 0;
     }

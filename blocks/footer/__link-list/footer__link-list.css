@@ -6,3 +6,16 @@
     align-items: flex-start;
     justify-content: space-between;
 }
+
+
+@media all and (max-width: 768px) {
+    .footer__link-list {
+        max-width: 720px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .footer__link-list {
+        display: block;
+    }
+}
