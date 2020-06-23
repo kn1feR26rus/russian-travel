@@ -4,22 +4,20 @@
 @import url(./__link-items/footer__link-items.css);
 @import url(./__link-item/footer__link-item.css);
 @import url(./__copyright/footer__copyright.css);
-
-
-
+@import url(./__link-list/footer__link-list.css);
 
 .footer {
     max-width: 1184px;
-    width: 100%;
     margin: 0 auto;
     padding: 92px 0 24px;
+    font-family: 'Inter', Arial, sans-serif;
 }
 
 @media screen and (max-width: 1024px) {
     .footer {
         max-width: 928px;
         width: 100%;
-        height: 18px;
+        
     }
 }
 
@@ -27,14 +25,12 @@
     .footer {
         max-width: 720px;
         margin: 0 auto;
-        
     }
 }
 
 @media all and (max-width: 320px) {
     .footer {
         max-width: 186px;
-        height: 310px;
         margin: 0;
         padding: 64px 118px 24px 16px;
     }

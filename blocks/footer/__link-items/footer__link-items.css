@@ -1,7 +1,6 @@
 .footer__link-items {
     display: flex;
     flex-direction: row;
-    align-content: flex-start;
     margin: 0;
     padding-bottom: 24px;
     padding-left: 0;

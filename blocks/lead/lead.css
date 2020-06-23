@@ -11,11 +11,14 @@
     width: 100%;
     margin: 0 auto;
     padding-top: 56px;
+    justify-content: center;
+    font-family: 'Inter', Arial, sans-serif;
 }
 
 @media screen and (max-width: 1024px) {
     .lead {
         padding-top: 48px;
+        text-align: center;
     }
 }
 

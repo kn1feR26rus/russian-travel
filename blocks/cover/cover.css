@@ -1,7 +1,7 @@
 
 
 @import url(./__title/cover__title.css);
-@import url(./__title-link/cover__title-link.css);
+@import url(./__link/cover__link.css);
 @import url(./__subtitle/cover__subtitle.css);
 @import url(./__background/cover__background.css);
 
@@ -16,6 +16,7 @@
     padding-top: 92px;
     align-items: center;
     justify-content: center;
+    font-family: 'Inter', Arial, sans-serif;
 }
 
 @media screen and (max-width: 1024px) {

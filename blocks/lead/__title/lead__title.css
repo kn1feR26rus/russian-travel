@@ -7,18 +7,16 @@
 
 
 .lead__title {
-    display: flex;
     max-width: 720px;
     margin: 0 auto;
     padding-bottom: 3.25%;
-    font-family: Inter;
     font-style: normal;
     font-weight: 900;
     font-size: 6em;
     line-height: 100px;
     color: #FFFFFF;
     text-align: center;
-    justify-content: center;
+    
 }
 
 @media screen and (max-width: 768px) {

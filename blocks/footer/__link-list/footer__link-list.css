@@ -1,0 +1,8 @@
+
+
+
+.footer__link-list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
