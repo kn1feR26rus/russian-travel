@@ -24,7 +24,7 @@
 @media all and (max-width: 768px) {
     .header__lang-link {
         max-width: 30px;
-        height: 28px;
+        
         padding: 0;
     }
 
@@ -37,6 +37,7 @@
 @media all and (max-width: 320px) {
     .header__lang-link {
         max-width: 22px;
-        max-height: 24px;
+        
+        margin: 0;
     }
 }
