@@ -18,7 +18,7 @@
     }
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 767px) {
     .footer__link-item {
        
         padding-bottom: 32px;
