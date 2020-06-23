@@ -4,6 +4,7 @@
 .footer__copyright {
     max-width: 186px;
     width: 100%;
+    justify-content: flex-end;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
