@@ -16,7 +16,7 @@
 .place {
     display: flex;
     flex-direction: row;
-    
+    max-width: 984px;
     flex-wrap: wrap;
     padding-top: 8.13%;
 }
@@ -25,23 +25,24 @@
     padding-top: 0;
 }
 
-/*
 @media screen and (max-width: 1024px) {
     .place {
-        
+        max-width: 100%;
+        max-height: 644px;
+        min-height: max-content;
      }
-} } */
+}
 
 @media all and (max-width: 768px) {
     .place {
-        
+        max-width: 768px;
         padding-top: 88px;
     }
 }
 
 @media all and (max-width: 320px) {
     .place {
-       
+        max-width: 320px;
         padding-top: 48px;
     }
-} 
+}
