@@ -22,28 +22,24 @@
     flex-wrap: wrap;
     padding-top: 8.13%;
     font-family: 'Inter', Arial, sans-serif;
+    margin: 0 auto;
+    
 }
 
 .place:first-child {
     padding-top: 0;
 }
 
-@media screen and (max-width: 1024px) {
-    .place {
-        
-     }
-}
 
-@media all and (max-width: 768px) {
+
+@media all and (max-width: 767px) {
     .place {
-        
         padding-top: 88px;
     }
 }
 
 @media all and (max-width: 320px) {
     .place {
-        
         padding-top: 48px;
     }
 }

@@ -9,15 +9,14 @@
 
 @media screen and (max-width: 1024px) {
     .place__website {
-        max-width: 456px;
-        padding-left: 32px;
+        max-width: 44.53%;
+        padding-left: 45px;
     }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
     .place__website {
-        max-width: 352px;
-        padding-left: 28px;
+        display: none;
     }
 }
 

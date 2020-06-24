@@ -6,22 +6,20 @@
 .places {
     display: flex;
     flex-direction: column;
-    max-width: 984px;
+    max-width: 76.88%;
     padding-top: 92px;
     margin: 0 auto;
 }
 
 @media screen and (max-width: 1024px) {
     .places {
-       
-        max-width: 928px;
+        max-width: 90.63%;
     }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
     .places {
-        
-        max-width: 720px;
+        max-width: 93.75%;
         padding-top: 88px;
     }
 }
@@ -29,7 +27,7 @@
 
 @media all and (max-width: 320px) {
     .places {
-        max-width: 320px;
+        max-width: 100%;
         padding: 64px 0 0;
     }
 }

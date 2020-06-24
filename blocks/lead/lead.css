@@ -8,7 +8,6 @@
 
 .lead {
     max-width: 984px;
-    width: 100%;
     margin: 0 auto;
     padding-top: 56px;
     justify-content: center;
@@ -17,6 +16,7 @@
 
 @media screen and (max-width: 1024px) {
     .lead {
+        max-width: 90.63%;
         padding-top: 48px;
         text-align: center;
     }
@@ -24,14 +24,14 @@
 
 @media all and (max-width: 768px) {
     .lead {
-        max-width: 768px;
+        max-width: 100%;
         padding: 0;
     }
 }
 
 @media all and (max-width: 320px) {
     .lead {
-        max-width: 320px;
+        max-width: 100%;
     }
 }
 

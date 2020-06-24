@@ -1,7 +1,7 @@
 .place__text {
     padding-top: 4.88%;
     padding-left: 4%;
-    max-width: 484px;
+    max-width: 49.19%;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -13,21 +13,24 @@
 
 @media screen and (max-width: 1024px) {
     .place__text {
-        max-width: 456px;
+        max-width: 46.34%;
+        padding-left: 3.45%;
         margin: 0;
     }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
     .place__text {
-        max-width: 352px;
-        margin: 0;
+        max-width: 100%;
+        padding-left: 0;
+        font-size: 16px;
+        line-height: 26px
     }
 }
 
 @media all and (max-width: 320px) {
     .place__text {
-        max-width: 288px;
+        max-width: 90%;
         padding: 32px 16px 0;
     }
 }

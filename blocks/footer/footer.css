@@ -7,27 +7,14 @@
 @import url(./__link-list/footer__link-list.css);
 
 .footer {
-    max-width: 1184px;
+    max-width: 92.5%;
     padding: 92px 0 24px;
     font-family: 'Inter', Arial, sans-serif;
     margin: 0 auto;
     
 }
 
-@media screen and (max-width: 1280px) {
-    .footer {
-        max-width: 928px;
-        width: 100%;
-        margin: 0 auto;
-    }
-}
 
-@media screen and (max-width: 1024px) {
-    .footer {
-        max-width: 720px;
-        margin: 0 auto;
-    }
-}
 
 
 /*

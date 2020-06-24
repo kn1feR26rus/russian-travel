@@ -12,7 +12,7 @@
     grid-row-gap: 16px;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
     .photo-grid {
         grid-column-gap: 14px;
         grid-row-gap: 14px;
@@ -31,7 +31,6 @@
 @media all and (max-width: 768px) {
     .photo-grid {
         grid-template-columns: repeat(auto-fit, calc(50% - 24px));
-        margin: 0 auto;
         padding-top: 88px;
         max-width: 100%;
         grid-column-gap: 16px;
