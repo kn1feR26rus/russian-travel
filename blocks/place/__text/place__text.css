@@ -1,7 +1,7 @@
 .place__text {
     padding-top: 4.88%;
     padding-left: 4%;
-    max-width: 49.19%;
+    max-width: 484px;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -10,15 +10,24 @@
 }
 
 
+
+@media screen and (max-width: 1024px) {
+    .place__text {
+        max-width: 456px;
+        margin: 0;
+    }
+}
+
 @media all and (max-width: 768px) {
     .place__text {
-        
+        max-width: 352px;
         margin: 0;
     }
 }
 
 @media all and (max-width: 320px) {
     .place__text {
+        max-width: 288px;
         padding: 32px 16px 0;
     }
 }
