@@ -15,15 +15,14 @@
     list-style-type: none;
 }
 
-@media screen and (max-width: 1024px) {
-    
-}
+
 
 @media all and (max-width: 768px) {
     .footer__copyright {
         padding-left: 69px;
     }
 }
+
 
 @media all and (max-width: 767px) {
     .footer__copyright {

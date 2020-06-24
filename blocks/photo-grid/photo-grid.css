@@ -6,7 +6,7 @@
     display: grid;
     justify-content: center;
     margin: 0 auto;
-    width: 100%;
+    max-width: 1184px;
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
     grid-column-gap: 16px;
     grid-row-gap: 16px;

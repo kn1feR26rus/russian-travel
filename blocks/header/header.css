@@ -7,6 +7,7 @@
 @import url(./__lang-links/__lang-link/header__lang-link.css);
 @import url(./__lang-link-text/header__lang-link-text.css);
 @import url(./__lang-links/__lang-link/header__lang-link.css);
+@import url(./__lang-links/__lang-link/_nounderline/header__lang-link_nounderline.css);
 
 
 .header {
@@ -19,14 +20,8 @@
     font-family: 'Inter', Arial, sans-serif;
 }
 
-@media screen and (max-width: 1024px) {
-    .header {
-        max-width: 928px;
-        width: 100%;
-    }
-}
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .header {
         max-width: 928px;
         width: 100%;

@@ -5,15 +5,8 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-   
 }
 
-
-@media all and (min-width: 768px) {
-    .footer__link-list {
-       
-    }
-}
 
 @media all and (max-width: 767px) {
     .footer__link-list {
