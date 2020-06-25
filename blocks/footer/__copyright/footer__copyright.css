@@ -2,8 +2,7 @@
 
 
 .footer__copyright {
-    max-width: 186px;
-    width: 100%;
+    width: 186px;
     justify-content: flex-end;
     font-style: normal;
     font-weight: normal;
@@ -29,6 +28,15 @@
         padding-left: 0;
         font-size: 14px;
         line-height: 14px;
+        width: 186px;
+        margin-right: 0;
         text-align: left;
+    }
+}
+
+
+@media all and (max-width: 320px) {
+    .footer__copyright {
+        padding-top: 16px;
     }
 }

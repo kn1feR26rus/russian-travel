@@ -13,18 +13,26 @@
 
 @media screen and (max-width: 1024px) {
     .place__text {
-        max-width: 46.34%;
+        flex-basis: 456px;
         padding-left: 3.45%;
         margin: 0;
     }
 }
 
+@media all and (max-width: 768px) {
+    .place__text {
+        flex-basis: 352px;
+        padding-left: 28px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
 @media all and (max-width: 767px) {
     .place__text {
-        max-width: 100%;
         padding-left: 0;
-        font-size: 16px;
-        line-height: 26px
+        max-width: 100%;
+        flex-basis: 100%;
     }
 }
 

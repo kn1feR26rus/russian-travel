@@ -5,7 +5,6 @@
 @import url(./__logo/header__logo.css);
 @import url(./__lang-links/header__lang-links.css);
 @import url(./__lang-link/header__lang-link.css);
-@import url(./__lang-link-text/header__lang-link-text.css);
 @import url(./__lang-link/_nounderline/header__lang-link_nounderline.css);
 
 
@@ -13,12 +12,17 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    max-width: 92.5%;
+    max-width: 1184px;
     padding-top: 28px;
     margin: 0 auto;
     font-family: 'Inter', Arial, sans-serif;
 }
 
+@media screen and (max-width: 1279px) {
+    .header {
+        max-width: 92.5%;
+    }
+}
 
 @media screen and (max-width: 1024px) {
     .header {

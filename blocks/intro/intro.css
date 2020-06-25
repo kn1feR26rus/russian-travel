@@ -10,17 +10,22 @@
 
 
 .intro {
-    max-width: 690px;
-    margin-left: 11.56%;
-    margin-right: 0; 
+    max-width: 984px;
+    margin: 0 auto; 
     padding-bottom: 92px;
     padding-top: 92px;
     font-family: 'Inter', Arial, sans-serif;
 }
 
+
+@media screen and (max-width: 1279px) {
+    .intro {
+        padding-top: 7.19%;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .intro {
-        margin: 0 auto;
         padding-top: 8.98%;
         padding-left: 4.69%;
     }
@@ -28,17 +33,13 @@
 
 @media all and (max-width: 768px) {
     .intro {
-        max-width: 720px;
+        max-width: 93.75%;
+        padding-bottom: 0;
+        padding-top: 11.46%;
         padding-left: 0;
     }
 }
 
-@media all and (max-width: 767px) {
-    .intro {
-        padding-left: 2.09%;
-        padding-right: 2.09%;
-    }
-}
 @media all and (max-width: 320px) {
     .intro {
         max-width: 90%;

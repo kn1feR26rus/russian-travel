@@ -3,24 +3,25 @@
 
 .place__website {
     padding-left: 4.07%;
-    max-width: 46.34%;
+    flex-basis: 46.34%;
     align-self: flex-end;
 }
 
 @media screen and (max-width: 1024px) {
     .place__website {
-        max-width: 44.53%;
-        padding-left: 45px;
+        flex-basis: 44.53%;
+        padding-left: 32px;
     }
 }
+
+@media all and (max-width: 768px) {
+    .place__website {
+        padding-left: 28px;
+    }
+}
+
 
 @media all and (max-width: 767px) {
-    .place__website {
-        display: none;
-    }
-}
-
-@media all and (max-width: 320px) {
     .place__website {
         display: none;
     }

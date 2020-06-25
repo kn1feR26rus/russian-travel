@@ -11,29 +11,21 @@
 @media screen and (max-width: 1024px) {
     .place__title {
         width: 47.41%;
-        
-    }
-}
-
-@media all and (max-width: 767px) {
-    .place__title {
-        word-spacing: 60px;
-        width: 44.27%;
-        font-style: normal;
-        font-weight: 900;
-        font-size: 42px;
-        line-height: 46px;
     }
 }
 
 @media all and (max-width: 768px) {
     .place__title {
         word-spacing: 60px;
-        width: 44.27%;
-        font-style: normal;
-        font-weight: 900;
+        max-width: 340px;
         font-size: 42px;
         line-height: 46px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .place__title {
+        width: 44.27%;
     }
 }
 

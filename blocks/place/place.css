@@ -30,6 +30,11 @@
     padding-top: 0;
 }
 
+@media screen and (max-width: 1024px) {
+    .place {
+        padding-top: 8.65%;
+    }
+}
 
 
 @media all and (max-width: 767px) {

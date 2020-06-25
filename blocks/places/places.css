@@ -17,7 +17,7 @@
     }
 }
 
-@media all and (max-width: 767px) {
+@media all and (max-width: 768px) {
     .places {
         max-width: 93.75%;
         padding-top: 88px;
